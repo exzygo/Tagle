@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tagle</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>TAGLE</h1>
+    <p class="sub1">Gerenciador de dados não-relacional</p>
+
+    <div class="form-container">
+      <input id="email" placeholder="Email" /><br />
+      <input id="password" placeholder="Senha" /><br />
+      <input id="description" placeholder="Descrição" /><br />
+      <button id="save">Salvar</button>
+    </div>
+
+    <div class="form-table">
+      <table>
+        <caption>Dados salvos</caption>
+        <thead>
+          <tr><th>Email</th><th>Senha</th><th>Descrição</th></tr>
+        </thead>
+        <tbody id="list"</tbody>
+      </table>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
